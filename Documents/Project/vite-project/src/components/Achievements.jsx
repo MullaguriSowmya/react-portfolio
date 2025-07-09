@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Navbar.css';
 function Achievements() {
   return (
     <section style={{ padding: '40px 20px' }}>
@@ -11,12 +11,7 @@ function Achievements() {
         <p>
           Successfully completed a hands-on Web Development course from <strong>CodeGenious</strong> where I learned to build responsive websites using HTML, CSS, JavaScript, and React.js.
         </p>
-        <img
-          src="/certificates/webdev-certificate.jpg"
-          alt="Web Development Certificate"
-          width="400"
-          style={{ border: '1px solid #ccc', borderRadius: '8px' }}
-        />
+        
       </div>
 
       {/* Achievement 2 */}
@@ -25,12 +20,7 @@ function Achievements() {
         <p>
           Completed the <strong>MongoDB</strong> course by <strong>L&T EduTech</strong>, covering NoSQL databases, CRUD operations, indexing, and Mongo shell usage.
         </p>
-        <img
-          src="/certificates/mongodb-certificate.jpg"
-          alt="MongoDB Certificate"
-          width="400"
-          style={{ border: '1px solid #ccc', borderRadius: '8px' }}
-        />
+        
       </div>
 
       {/* Achievement 3 */}
@@ -39,12 +29,7 @@ function Achievements() {
         <p>
           Earned a certificate in <strong>UI/UX Design</strong> from <strong>L&T EduTech</strong>, learning principles of visual hierarchy, wireframing, Figma basics, and user experience design.
         </p>
-        <img
-          src="/certificates/uiux-certificate.jpg"
-          alt="UI/UX Certificate"
-          width="400"
-          style={{ border: '1px solid #ccc', borderRadius: '8px' }}
-        />
+       
       </div>
     </section>
   );
